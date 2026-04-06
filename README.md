@@ -30,3 +30,28 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 "Module Not Found" Error
 If the app doesn't start, try running:
 npm install --force
+
+🛠 Tech Stack
+Frontend: React (Vite)
+
+Styling: Tailwind CSS
+
+Navigation: React Router Dom
+
+
+---
+
+### **How to "Publish" this to GitHub**
+
+Once you have pasted the text above into VS Code, follow these 3 steps to send it to the internet:
+
+1.  **Save the file:** Press **`Ctrl + S`**.
+2.  **Go to your Terminal** at the bottom of VS Code.
+3.  **Run these three commands** one by one (press Enter after each):
+    * `git add README.md`
+    * `git commit -m "docs: finalized team setup guide"`
+    * `git push origin master`
+
+
+
+**Once you run those commands, refresh your GitHub page in Chrome.
