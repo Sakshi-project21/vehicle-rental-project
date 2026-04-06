@@ -1,32 +1,32 @@
-# Vehicle Rental Project
+# 🚗 Vehicle Rental Project
 
 This is a React + Vite frontend for our University Vehicle Rental System, styled with Tailwind CSS.
 
-## 👥 Getting Started for Team Members
+## 👥 Setup Instructions for Team Members
 
-Follow these steps exactly to set up the project on your computer:
+Follow these steps exactly to get the project running on your computer:
 
 ### 1. Clone the Repository
 Open your terminal and run:
 ```bash
 git clone [https://github.com/Sakshi-project21/vehicle-rental-project.git](https://github.com/Sakshi-project21/vehicle-rental-project.git)
 cd vehicle-rental-project
+2. Install Dependencies (Mandatory)
+The project will not work without this. This command downloads React, Tailwind, and other libraries to your machine:
 
-Markdown
-### 2. Install Dependencies (Mandatory)
-Open your terminal and run:
-```bash
+Bash
 cd frontend
 npm install
 3. Run the Development Server
 Bash
 npm run dev
-🛠 Troubleshooting
-If you see a red "Scripts are disabled" error, run this in PowerShell as Admin:
+Once it starts, open http://localhost:5173 in your browser.
 
-PowerShell
+🛠 Troubleshooting (If things break)
+"Scripts are disabled" Error
+If you see a red error when running npm, open PowerShell as Administrator and run:
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-If the app won't start, try:
 
-Bash
+"Module Not Found" Error
+If the app doesn't start, try running:
 npm install --force
